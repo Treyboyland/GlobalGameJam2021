@@ -13,6 +13,6 @@ public class CodeText : MonoBehaviour
 
     public void SetText()
     {
-        textBox.text = "" + code.Code;
+        textBox.text = code.Code.ToString("D4");
     }
 }
