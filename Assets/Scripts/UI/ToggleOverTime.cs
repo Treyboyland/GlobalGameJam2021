@@ -11,7 +11,7 @@ public class ToggleOverTime : MonoBehaviour
     float secondsToWaitOn = 0;
 
     [SerializeField]
-    float secondsToWaitOff;
+    float secondsToWaitOff = 0;
 
     private void Start()
     {

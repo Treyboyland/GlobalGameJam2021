@@ -5,10 +5,10 @@ using UnityEngine;
 public class CarTrigger : MonoBehaviour
 {
     [SerializeField]
-    GameEvent gameWinEvent;
+    GameEvent gameWinEvent = null;
 
     [SerializeField]
-    GameEvent notDoneEvent;
+    GameEvent notDoneEvent = null;
 
     public bool CanWinGame { get; set; } = false;
 

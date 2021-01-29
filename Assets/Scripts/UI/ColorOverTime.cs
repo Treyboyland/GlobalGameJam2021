@@ -6,13 +6,13 @@ using TMPro;
 public class ColorOverTime : MonoBehaviour
 {
     [SerializeField]
-    TextMeshProUGUI textBox;
+    TextMeshProUGUI textBox = null;
 
     [SerializeField]
     List<Color> colors = new List<Color>();
 
     [SerializeField]
-    float secondsToChange;
+    float secondsToChange = 0;
 
     private void OnEnable()
     {
