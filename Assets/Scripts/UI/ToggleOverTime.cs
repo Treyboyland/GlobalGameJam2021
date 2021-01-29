@@ -16,7 +16,6 @@ public class ToggleOverTime : MonoBehaviour
     private void Start()
     {
         toToggle.SetActive(false);
-        StartCycle();
     }
 
     public void StartCycle()
