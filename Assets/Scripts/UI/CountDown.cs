@@ -22,6 +22,8 @@ public class CountDown : MonoBehaviour
 
     float currentTime = 0;
 
+    public float CurrentTime { get { return currentTime; } }
+
     bool eventFired = false;
 
     // Start is called before the first frame update
